@@ -1,0 +1,19 @@
+
+/* Estilos para la tarjeta */
+.style-navbar {
+  color: azure;
+  background-color: #103fb7;
+  padding: 5px;
+  border-radius: 5px;
+}
+/* Estilos para la tarjeta mouse hover */
+.style-navbar:hover{
+  color: #26bd50;
+  background-color: #244498;
+  
+}
+ /* Estilos para el color del boton carrito */
+.carrito-text-color{
+  color: white;
+  cursor: pointer;
+}

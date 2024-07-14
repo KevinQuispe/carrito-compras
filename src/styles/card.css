@@ -8,12 +8,14 @@
     background-color: beige;
   }
   
+  /* Estilos para la imagen de la targeta */
   .tarjeta-imagen {
     width: 100px;
     height: 100px;
     object-fit: cover;
-    border-radius: 4px;
+    border-radius: 10px;
     margin-right: 10px;
+    background-image: #a04545;
   }
   
   .tarjeta-contenido {
@@ -59,10 +61,10 @@
     background-color: #a04545;
   }
   
-  /* Estilos para el carrito */
-  .carrito {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  .carrito-counter{
+    background-color: #b32626;
+    color: white;
+    padding: 2px 4px;
+    border-radius: 20px;
+    cursor: pointer;
   }
-  
