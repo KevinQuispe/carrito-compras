@@ -55,7 +55,7 @@
     background-color: #45a049;
   }
 
-  /* Estilos para mouse hover*/
+  /* Estilos para el boton quitar*/
   .boton-quitar {
     background-color: #af4c4c;
     color: white;
@@ -64,8 +64,8 @@
     border-radius: 4px;
     cursor: pointer;
   }
-  
-   /* Estilos para mouse hover*/
+
+   /* Estilos para el boton quitar hover*/
   .boton-quitar:hover {
     background-color: #a04545;
   }

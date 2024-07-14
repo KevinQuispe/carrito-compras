@@ -8,12 +8,13 @@
   margin-bottom: 10px;
   background-color: beige;
 }
+/* Estilos para los h1 en el componentes contactanos*/
 .color-title{
   color: rgb(54, 52, 192);
 
 }
 
-/* Estilos para la seccion de navgacion contactanos */
+/* Estilos para la seccion de navegacion contactanos */
 .contactos {
   margin-top: 10px;
   border: 1px solid #ccc;
