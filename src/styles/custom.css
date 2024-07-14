@@ -13,6 +13,11 @@
   color: rgb(54, 52, 192);
 
 }
+.color-title-boton-tieda{
+  color: #fff;
+  text-decoration-line: underline;
+
+}
 
 /* Estilos para la seccion de navegacion contactanos */
 .contactos {

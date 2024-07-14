@@ -1,5 +1,7 @@
 import { useContext } from "react"
 import { CarritoContext } from "../context/CarritoContext"
+import { NavLink } from "react-router-dom"
+import '../styles/custom.css'
 
 export const CarritoPage = () => {
 
@@ -53,9 +55,12 @@ export const CarritoPage = () => {
             <div className="d-grid gap-2">
                 <button  className="btn btn-success"onClick={handleImpresion}disabled={listaCompras<1}>Imprimir</button>
             </div><br />
+            <NavLink to='/'>
             <div className="d-grid gap-2">
-                <button  className="btn btn-warning">Regresar a la tienda</button>
+                <button  className="btn btn-warning"><b className="color-title-boton-tieda">Regresar a la tienda</b></button>
             </div>
+            </NavLink>
+            
         </div>
     )
 }
