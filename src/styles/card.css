@@ -23,12 +23,12 @@
     flex: 1;
   }
 
-  /* Estilos para la marge entre el titulo */
+  /* Estilos para el margen entre el titulo */
   .tarjeta-titulo {
     margin: 2;
   }
 
-  /* Estilos para la margen entre  la descripcion */
+  /* Estilos para el margen entre la descripcion */
   .tarjeta-descripcion {
     margin: 0;
     margin-bottom: 10px;
@@ -50,6 +50,7 @@
     border-radius: 4px;
     cursor: pointer;
   }
+  
   /* Estilos para mouse hover*/
   .boton-agregar:hover {
     background-color: #45a049;

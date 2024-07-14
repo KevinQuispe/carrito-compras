@@ -57,7 +57,7 @@ export const CarritoPage = () => {
             </div><br />
             <NavLink to='/'>
             <div className="d-grid gap-2">
-                <button  className="btn btn-warning"><b className="color-title-boton-tieda">Regresar a la tienda</b></button>
+                <button  className="btn btn-warning"><b className="color-title-boton-tienda">Regresar a la tienda</b></button>
             </div>
             </NavLink>
             

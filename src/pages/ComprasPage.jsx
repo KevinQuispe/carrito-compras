@@ -6,7 +6,6 @@ import { CarritoContext } from "../context/CarritoContext"
 export const ComprasPage = () => {
 
     const { productos } = useContext( ProductosContext )
-
     const { agregarCompra, eliminarCompra } = useContext(CarritoContext)
 
     const handleAgregar = (compra) =>{
@@ -18,10 +17,9 @@ export const ComprasPage = () => {
    
 
   return (    
-    <>
-    <h1>Catalogo de productos</h1>
+    <div>
+    <marquee behavior="alternate" direction="left"><h2 className="color-title">Catalogo de productos</h2></marquee>
     <hr />
-
     {productos.map(producto => (
         <Card 
           key={producto.id}
@@ -35,6 +33,6 @@ export const ComprasPage = () => {
         </Card>
     ))}
     
-    </>
+    </div>
   )
 }
