@@ -17,25 +17,31 @@
     margin-right: 10px;
     background-image: #a04545;
   }
-  
+
+  /* Estilos para el contenido flexible */
   .tarjeta-contenido {
     flex: 1;
   }
-  
+
+  /* Estilos para la marge entre el titulo */
   .tarjeta-titulo {
-    margin: 0;
+    margin: 2;
   }
-  
+
+  /* Estilos para la margen entre  la descripcion */
   .tarjeta-descripcion {
     margin: 0;
     margin-bottom: 10px;
   }
-  
+
+  /* Estilos para el color del precio */
   .tarjeta-precio {
     margin: 0;
     font-weight: bold;
+    color: #c8104d;
   }
   
+  /* Estilos para el boton agregar */
   .boton-agregar {
     background-color: #4caf50;
     color: white;
@@ -44,10 +50,12 @@
     border-radius: 4px;
     cursor: pointer;
   }
-  
+  /* Estilos para mouse hover*/
   .boton-agregar:hover {
     background-color: #45a049;
   }
+
+  /* Estilos para mouse hover*/
   .boton-quitar {
     background-color: #af4c4c;
     color: white;
@@ -57,10 +65,12 @@
     cursor: pointer;
   }
   
+   /* Estilos para mouse hover*/
   .boton-quitar:hover {
     background-color: #a04545;
   }
-  
+
+  /* Estilos para el carrito counter*/
   .carrito-counter{
     background-color: #b32626;
     color: white;

@@ -1,0 +1,24 @@
+
+/* Estilos la seccion de navegacion somos*/
+.div-somos {
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: beige;
+}
+.color-title{
+  color: rgb(54, 52, 192);
+
+}
+
+/* Estilos para la seccion de navgacion contactanos */
+.contactos {
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: beige;
+}

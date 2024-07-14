@@ -18,10 +18,10 @@ export const NavBar = () => {
                             <NavLink to='/carrito' className="nav-link active navbar-brand"><b className="style-navbar">Mis Compras</b></NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink to='/pagos' className="nav-link active navbar-brand"><b className="style-navbar"> Cancelar</b></NavLink>
+                            <NavLink to='/somos' className="nav-link active navbar-brand"><b className="style-navbar"> Quienes somos</b></NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink to='/pagos' className="nav-link active navbar-brand"><b className="style-navbar"> Quienes somos</b></NavLink>
+                            <NavLink to='/contactos' className="nav-link active navbar-brand"><b className="style-navbar"> Contactanos</b></NavLink>
                         </li>
                     </ul>
                     <NavLink to='/carrito'>

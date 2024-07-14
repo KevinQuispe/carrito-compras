@@ -66,11 +66,6 @@ export const CarritoProvider = ({ children }) => {
         dispatch(action)
 
     }
-
-
-
-
-
     return (
 
         <CarritoContext.Provider value={{ listaCompras, agregarCompra, aumentarCantidad, disminuirCantidad, eliminarCompra }}>
